@@ -47,7 +47,7 @@
     <section class="main-page section-main-page">
         <div class="container">
         <h1 class="main-title">Effective Solutions for Your Business</h1>
-        <button class="button-hero buttun-text buttun-container" type="button">
+        <button class="button-hero buttun-text buttun-container" data-modal-open type="button" >
             Order Service
         </button>
     </div>
@@ -435,9 +435,9 @@
     </footer>
     
     <!-- BACKDROP -->
-    <div class="backdrop is-open">
+    <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-    <button class="button-close" type="button">
+    <button class="button-close" type="button" data-modal-close>
     <svg class="icon-close"
     width="8"
     height="8"
@@ -539,5 +539,6 @@
 </form>
     </div>
     </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
