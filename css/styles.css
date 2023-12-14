@@ -943,6 +943,7 @@ gap: 0;
 .footer {
 display: flex;
 flex-direction: row;
+justify-content: flex-start;
 gap: 0;
 width: 1158px;
 }
