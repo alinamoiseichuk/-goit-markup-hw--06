@@ -940,6 +940,10 @@ padding-bottom: 100px;
 gap: 0;
 }
 
+.text-footer {
+width: 264px;    
+}
+
 .footer {
 display: flex;
 flex-direction: row;
