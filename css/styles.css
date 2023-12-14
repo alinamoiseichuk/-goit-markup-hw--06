@@ -913,7 +913,6 @@ display: inline-block;
 }
 
 .form-footer {
-display: flex;
 flex-direction: row;
 justify-content: flex-start;
 align-items: center; 
@@ -933,7 +932,7 @@ align-self: start;
 @media screen and (min-width: 1158px) {
 .section-footer {
 padding-top: 100px;
-padding-bottom: 100px; 
+padding-bottom: 100px;
 }  
 
 .container-logo-social {
