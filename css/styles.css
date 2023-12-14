@@ -942,8 +942,6 @@ gap: 0;
 .footer {
 display: flex;
 flex-direction: row;
-justify-content: flex-start;
-align-items: center;
 gap: 0;
 width: 1158px;
 }
@@ -1046,6 +1044,7 @@ font-weight: 500;
 line-height: 1.20; 
 letter-spacing: 0.02em;
 font-style: normal;
+ 
 }
 
 .contacts-item-mail {
@@ -1339,3 +1338,5 @@ padding: 72px 24px 24px 24px;
 padding-left: 38px;
 }
 }
+
+
