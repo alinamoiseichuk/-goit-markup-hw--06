@@ -477,6 +477,7 @@ width: calc((100% - 24px) / 2)
 .benefits-list-title {
 text-align: start;
 }
+}
 
 /* DESKTOP */
 @media screen and (min-width: 1158px) {
@@ -952,11 +953,6 @@ margin-right: 120px;
 
 .footer-social {
 margin-right: 80px;   
-}
-
-.form-footer {
-justify-content: baseline;
-}
 }
 
 /* MOBILE MENU */
